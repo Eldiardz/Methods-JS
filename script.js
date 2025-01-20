@@ -56,5 +56,5 @@ console.log(Object.keys(gol)); // ['a', 'b']
 let gol1 = {a: 1, b: 2}
 console.log(Object.values(gol1)); // [1, 2]
 
-let zzz = {a: 1, b: 2}
-console.log(Object.entries(zzz))
+let gol2 = {a: 1, b: 2}
+console.log(Object.entries(gol2))
