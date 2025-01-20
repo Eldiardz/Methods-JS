@@ -36,3 +36,25 @@ console.log(arrr4.find(num => num > 3)); // 4
 
 let arrr5 = [1, 2, 3, 4]
 console.log(arrr5.map(num => num * 15)); // [15, 30, 45, 60]
+
+let arrr6 = [1, 2];
+arrr6.push(3);
+console.log(arrr6);  // [1, 2, 3]
+
+let arrr7 = [1, 2, 3];
+arrr7.pop();
+console.log(arrr7); // [1, 2]
+
+let peremoga = { Z: 1}
+let goida = { V: 2}
+Object.assign(peremoga, goida)
+console.log(peremoga) // {Z: 1}, V: 2}
+
+let gol = {a: 1, b: 2}
+console.log(Object.keys(gol)); // ['a', 'b']
+
+let gol1 = {a: 1, b: 2}
+console.log(Object.values(gol1)); // [1, 2]
+
+let zzz = {a: 1, b: 2}
+console.log(Object.entries(zzz))
